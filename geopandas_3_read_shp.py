@@ -6,7 +6,7 @@ import os, sys
 
 # ============= 1. point 데이터 읽기 =============
 # Shapefile 읽고 geometry 열에서 Point 데이터 추출
-gdf = gpd.read_file("./data/A1_NODE.shp")
+gdf = gpd.read_file("../data/A1_NODE.shp")
 print(type(gdf.geometry[0]))
 print(gdf.geom_type)
 
@@ -15,7 +15,7 @@ print(gdf.geom_type)
 # print(points)
 
 # ============= 2. line 데이터 읽기 =============
-gdf = gpd.read_file("./data/A2_LINK.shp")
+gdf = gpd.read_file("../data/A2_LINK.shp")
 print(type(gdf.geometry[0]))
 print(gdf.geom_type)
 
@@ -42,7 +42,7 @@ axs[1].set_title('Line to Point Plot')
 plt.show()
 
 # ============= 3. polygon 데이터 읽기 =============
-gdf = gpd.read_file("./data/C4_SPEEDBUMP.shp")
+gdf = gpd.read_file("../data/C4_SPEEDBUMP.shp")
 print(type(gdf.geometry[0]))
 print(gdf.geom_type)
 
