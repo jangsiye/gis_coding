@@ -12,7 +12,7 @@ from shapely.geometry import MultiPolygon, Polygon
 import pandas as pd
 import sys, os 
 
-# 3D Polygon을 포함하는 MultiPolygon 생성
+# 3D Polygon을 포함하는 MultiPolygon 생성https://chat.openai.com/c/bb50b207-c956-4ff9-b803-a5310b0fcc33
 # 일반적인 높이값과 특정 폴리곤에 이상치 높이값을 설정
 mp1 = [
     Polygon([(0, 0, 1), (2, 0, 1), (1.5, 1.5, 2), (0, 2, 2)]),  # 부분적으로 mp2의 첫 폴리곤과 겹침
